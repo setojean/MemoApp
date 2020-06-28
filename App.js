@@ -20,7 +20,7 @@ export default function App() {
       return;
     }
 
-    setSelectedImage({ localUri: pickerResult.uri });  
+    setSelectedImage({ localUri: pickerResult.uri });
   };
 
   if (selectedImage !== null) {
@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Image source={logo} style={styles.logo} /> 
+      <Image source={logo} style={styles.logo} />
 
       <Text style={styles.test}>COUNTER</Text>
 
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 20,
     color: '#fff',
-  }, 
+  },
   thumbnail: {
     width: 300,
     height: 300,
